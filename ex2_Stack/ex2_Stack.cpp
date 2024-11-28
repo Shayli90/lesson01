@@ -12,7 +12,7 @@ typedef struct Stack
     int _count;
 } Stack;
 
-// add to end
+
 void push(Stack* s, unsigned int element)
 {
     s->_elements = addToEnd(s->_elements, element);
@@ -20,12 +20,12 @@ void push(Stack* s, unsigned int element)
 
 }
 
-// del end
-int pop(Stack* s) // Return -1 if stack is empty
+//pop - remove element from the top of the stack
+int pop(Stack* s)
 {
     if (s->_count == 0)
     {
-        return -1;
+        return -1;  // Return -1 if stack is empty
     }
 
     listNode* prev = s->_elements;
@@ -41,12 +41,14 @@ int pop(Stack* s) // Return -1 if stack is empty
     return val;
 }
 
+// Cartridge initialization
 void initStack(Stack* s)
 {
     s->_elements = NULL;
     s->_count = 0;
 }
 
+// free the memory of linked list..
 void cleanStack(Stack* s)
 {
     listNode* current = s->_elements;

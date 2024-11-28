@@ -15,27 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\Cyber_User\Downloads\Stack.h">
+    <ClInclude Include="..\ex2\stack_realizationEX2\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Users\Cyber_User\Downloads\Utils.h">
+    <ClInclude Include="..\ex2\stack_realizationEX2\Stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedList.h">
+    <ClInclude Include="..\ex2\stack_realizationEX2\Utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Users\Cyber_User\Downloads\Part2Tester.cpp">
+    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Stack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex2_Utils.cpp">
+    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LinkedList.cpp">
+    <ClCompile Include="..\ex2\stack_realizationEX2\LinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ex2_Stack.cpp">
+    <ClCompile Include="..\ex2\stack_realizationEX2\Part2Tester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

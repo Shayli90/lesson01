@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{05ad7f91-5965-4b05-a2a8-c68872fe334d}</ProjectGuid>
-    <RootNamespace>stackrealizationEX2</RootNamespace>
+    <ProjectGuid>{21ab63ea-aa9b-4b59-aa45-7f18e4c4c06f}</ProjectGuid>
+    <RootNamespace>ex2Stack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Users\Cyber_User\Downloads\Stack.h" />
-    <ClInclude Include="..\..\..\..\..\Users\Cyber_User\Downloads\Utils.h" />
-    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="..\ex2\stack_realizationEX2\LinkedList.h" />
+    <ClInclude Include="..\ex2\stack_realizationEX2\Stack.h" />
+    <ClInclude Include="..\ex2\stack_realizationEX2\Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Users\Cyber_User\Downloads\Part2Tester.cpp" />
-    <ClCompile Include="ex2_Stack.cpp" />
-    <ClCompile Include="ex2_Utils.cpp" />
-    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Stack.cpp" />
+    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Utils.cpp" />
+    <ClCompile Include="..\ex2\stack_realizationEX2\LinkedList.cpp" />
+    <ClCompile Include="..\ex2\stack_realizationEX2\Part2Tester.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
