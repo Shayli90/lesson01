@@ -1,5 +1,5 @@
-#ifndef LINKED_LISTH
-#define LINKED_LIST_
+#ifndef LINKED_LIST_H
+#define LINKED_LIST_H
 
 typedef struct listNode
 {
@@ -8,9 +8,16 @@ typedef struct listNode
 
 }listNode;
 
+listNode* addToEnd(listNode* head, int value);
 
-listNode* addToHead(listNode* head, int value);
+void addToHead(listNode* head, int value);
 
 listNode* removeHead(listNode* head);
 
+void delEnd(listNode* head, int value);
 
+void initList(listNode* head);
+
+void cleanList(listNode* head);
+
+#endif // LINKED_LIST_H
