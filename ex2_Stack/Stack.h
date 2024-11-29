@@ -4,9 +4,11 @@
 #include "LinkedList.h"
 
 /* a positive-integer value stack, with no size limit */
+
 typedef struct Stack
 {
-	// Complete Definition here
+    struct listNode* _elements;
+    int _count;
 } Stack;
 
 void push(Stack* s, unsigned int element);

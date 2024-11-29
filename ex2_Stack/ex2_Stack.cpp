@@ -6,12 +6,6 @@
 #include <cstdlib>
 
 
-typedef struct Stack
-{
-    struct listNode* _elements;
-    int _count;
-} Stack;
-
 
 void push(Stack* s, unsigned int element)
 {

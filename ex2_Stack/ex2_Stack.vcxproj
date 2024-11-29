@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ex2_Stack.cpp" />
+    <ClCompile Include="ex2_Utils.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="Part2Tester.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -42,7 +53,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -126,17 +137,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\ex2\stack_realizationEX2\LinkedList.h" />
-    <ClInclude Include="..\ex2\stack_realizationEX2\Stack.h" />
-    <ClInclude Include="..\ex2\stack_realizationEX2\Utils.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Stack.cpp" />
-    <ClCompile Include="..\ex2\stack_realizationEX2\ex2_Utils.cpp" />
-    <ClCompile Include="..\ex2\stack_realizationEX2\LinkedList.cpp" />
-    <ClCompile Include="..\ex2\stack_realizationEX2\Part2Tester.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
